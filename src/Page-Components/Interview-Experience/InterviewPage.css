@@ -1,0 +1,15 @@
+.quill-readonly {
+    .ql-container {
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      margin-bottom: 10px;
+    }
+  }

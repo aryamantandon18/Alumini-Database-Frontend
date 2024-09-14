@@ -1,0 +1,87 @@
+/* RanklistPage.module.css */
+
+.container {
+  padding: 50px 20px; /* Increased top padding */
+  background-color: #f4f7fc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 900px; /* Reduced max width */
+  margin: 20px auto;
+  text-align: left; /* Aligned text to the left */
+}
+
+.ranklist {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.studentCard {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.studentCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.studentSummary {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.studentSummary h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.studentSummary p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.studentDetails {
+  padding: 20px;
+  background-color: #f9fafc;
+}
+
+.expanded {
+  background-color: #f0f8ff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project,
+.workExperience {
+  margin-bottom: 15px;
+}
+
+.project p,
+.workExperience p {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

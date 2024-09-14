@@ -1,0 +1,181 @@
+.networking {
+    padding: 20px;
+}
+
+.networking h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #0077b6;
+    font-weight: 500;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.sort-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.add-button:hover {
+    background-color: #005f73;
+}
+
+.confirm-dialog {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.confirm-dialog p {
+    margin: 0 0 10px;
+}
+
+.confirm-dialog button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+
+.confirm-dialog button:hover {
+    background-color: #005f73;
+}
+
+.networking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.networking-form label {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.networking-form input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.networking-form button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-size: 16px; 
+    align-self: flex-start;
+}
+
+.networking-form button:hover {
+    background-color: #005f73;
+}
+
+.networking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.networking-table th, .networking-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.networking-table th {
+    background-color: #f4f4f4;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #0077b6;
+    margin-right: 5px;
+}
+
+.action-button:hover {
+    color: #005f73;
+}
+.loader {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #0077b6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .view-button {
+    background-color: #0077b6; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.view-button:hover {
+    background-color: #005f73; 
+}
+
+.view-button:focus {
+    outline: none; 
+    
+}

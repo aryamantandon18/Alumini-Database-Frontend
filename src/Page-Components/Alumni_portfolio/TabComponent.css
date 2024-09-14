@@ -1,0 +1,128 @@
+
+.maindiv h1{
+    text-align: center;
+    font-size: 2rem;
+ }
+ .tab-container {
+   margin-top: 57px;
+   display: flex;
+   align-items: flex-start;
+   font-family: Arial, sans-serif;
+ }
+ 
+ .profile {
+   display: flex;
+   height: 250px;
+   border-radius: 16px;
+   border: 5px solid gray;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 20px;
+   margin-top: 65px;
+ }
+ 
+ 
+ .profile h3 {
+   margin: 10px;
+   font-weight: bolder;
+ }
+ 
+ .profile p {
+   margin: 10px;
+ }
+ 
+ .profile-img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   margin: 10px;
+ }
+ 
+ .tabs {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   margin-bottom: 20px;
+   border-bottom: 1px solid #ccc;
+ }
+ 
+ .tab {
+   padding: 10px 20px;
+   cursor: pointer;
+   text-align: center;
+   border-bottom: 3px solid transparent;
+ }
+ 
+ .tab.active {
+   border-bottom: 3px solid #673ab7;
+   font-weight: bold;
+ }
+ 
+ .content-wrapper {
+   width: 80%;
+ }
+ 
+ .content-container {
+   width: 100%;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   padding: 20px;
+   background-color: #f9f9f9;
+ }
+ 
+ .content {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .form-group {
+   width: 48%;
+   padding: 10px;
+ }
+ 
+ .form-group label {
+   text-align: left;
+   display: block;
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+ .form-group label .company{
+   width: 100vw;
+ }
+ 
+ .form-group input {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ .employment-section,
+ .achievement-section {
+   width: 100%;
+   margin-top: 20px;
+ }
+ 
+ .employment-section h3 {
+   margin-bottom: 10px;
+   text-align: center;
+   font-size: 1.75rem;
+   font-weight: 400;
+   text-align: left;
+   margin-top: 5px;
+ }
+ .achievement-section h3 {
+   font-size: 1.75rem;
+   font-weight: 400;
+   text-align: left;
+   margin-bottom: 10px;
+ }
+ 
+ .form-row {
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .form-row .form-group {
+   width: 48%;
+ }

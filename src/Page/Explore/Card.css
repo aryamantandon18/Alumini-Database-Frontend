@@ -1,0 +1,104 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.18) 9%, rgba(224, 224, 224, 0.0361) 100%, rgba(216, 216, 216, 0) 100%);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    max-width: 400px;
+    margin: auto;
+    height: 90%;
+    backdrop-filter: blur(14px);
+    transition: all 0.3s ease;
+  }
+  .card:hover{
+    scale: 1.05;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .card-title {
+  text-align: left;
+  height: 40px;
+  margin-bottom: 7px;
+  opacity: 1;
+    font-family: Abhaya Libre;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.1;
+    letter-spacing: -0.05em;
+     
+    font-variation-settings: "opsz" auto;
+    color: #FFFFFF;
+  
+  }
+  
+  .card-description {
+   text-align: left;
+   top: 203px;
+    height: 66px;
+    opacity: 1;
+    
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    
+    font-variation-settings: "opsz" auto;
+    font-feature-settings: "kern" on;
+    color: #FFFFFF;
+  
+  }
+  
+  .para {
+    padding-bottom: 4px;
+  }
+  
+  .btn {
+    border-top: 1px solid gray;
+    font-family: Abhaya Libre;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  
+  font-variation-settings: "opsz" auto;
+  color: #484848;
+    padding-top: 10px;
+    margin-top: 19px;
+  }
+  
+  .view-more {
+    background:  #B1B1B1; 
+   font-variation-settings: "opsz" auto; 
+    color: #484848;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 33px;
+    font-weight: 400;
+    transition: background 0.2s;
+  }
+  
+  .view-more:hover {
+    background: #d1cdcd;
+  }
+  

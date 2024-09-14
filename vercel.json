@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "https://alumnibackend.up.railway.app/$1"
+      }
+    ]
+  }
+  

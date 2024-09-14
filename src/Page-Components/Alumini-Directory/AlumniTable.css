@@ -1,0 +1,66 @@
+ table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 150px;
+  margin-top: 40px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td img {
+  width: 100px;
+  height: 60px;
+  object-fit: cover;
+}
+
+td {
+  white-space: nowrap;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+input,
+select {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.search-sort-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.search-sort-container input,
+.search-sort-container select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.colorful-background {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.blue-star {
+  color: blue;
+  padding-left: 15px;
+} 
+
+

@@ -1,0 +1,131 @@
+.carousel-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 200px);
+  background-image: url("../../assets/Achivement.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.carousel-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.carousel-title .highlight {
+  color: red;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 33.33%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.alumni-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+.alumni-card:hover {
+  box-shadow: 0 8px 16px gray;
+}
+
+.alumni-photo {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #fff;
+}
+
+.alumni-name {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.alumni-role,
+.alumni-achievement,
+.alumni-year {
+  margin: 5px 0;
+}
+
+.alumni-social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.alumni-social-icons > * {
+  margin: 0 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.carousel-button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 1.5em;
+}
+
+.carousel-button.left {
+  margin-right: 10px;
+}
+
+.carousel-button.right {
+  margin-left: 10px;
+}

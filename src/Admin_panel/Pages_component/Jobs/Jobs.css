@@ -1,0 +1,138 @@
+.jobs {
+    padding: 20px;
+  }
+  
+  .jobs h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #0077b6;
+    font-weight: 500;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .sort-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .add-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #005f73;
+  }
+  
+  .jobs-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .jobs-form label {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .jobs-form input,
+  .jobs-form textarea {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%; 
+  }
+  
+  .jobs-form button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px; 
+    cursor: pointer;
+    font-size: 16px; 
+    align-self: flex-start;
+  }
+  
+  .jobs-form button:hover {
+    background-color: #005f73;
+  }
+  
+  .jobs-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .jobs-table th,
+  .jobs-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .jobs-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .jobs-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .jobs-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  .jobs-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .loader {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #0077b6; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
